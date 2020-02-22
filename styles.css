@@ -18,18 +18,59 @@ body {
     padding: 0px 50px 0px 0px;
 }
 
-.col-12 {
-    border: dashed mintcream 5px;
-    height: 500px;
-    margin-top: 30px;
+.nav-item {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-img {
+.about {
+    height: 500px;
+    margin-top: 30px;
+    background-color: mintcream;
+}
+
+.profile {
     margin-top: 40px;
     margin-left: 30px;
 }
 
 .bio {
-    margin-top: 40px;
+    margin-top: 115px;
+    margin-right: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 2;
+    border-top: dashed 2px springgreen;
+    border-bottom: dashed 2px springgreen;
+    padding: 15px;
 }
+
+.portfolio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    left: 15px;
+    background-color: springgreen;
+    opacity: 75%;
+    width: 450px;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: black;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0px 5px 30px;
+}
+
 
