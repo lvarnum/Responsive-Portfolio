@@ -100,6 +100,7 @@ body {
     border-top: solid springgreen 5px;
 }
 
+
 @media screen and (max-width: 540px) {
     .portfolio {
         width: 200px;
@@ -167,11 +168,13 @@ body {
     }
 
     .profile {
-        margin-left: 80px;
+        margin-left: 100px;
+        width: 400px;
+        height: 300px;
     }
 
     .bio {
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 10px;
     }
 }
@@ -200,6 +203,12 @@ body {
     .bio {
         margin-top: 20px;
         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bio {
+        margin-top: 60px;
     }
 }
 
