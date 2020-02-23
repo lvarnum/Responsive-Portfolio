@@ -24,7 +24,7 @@ body {
 }
 
 .about {
-    height: 500px;
+    height: 490px;
     margin-top: 30px;
     background-color: mintcream;
 }
@@ -32,6 +32,8 @@ body {
 .profile {
     margin-top: 40px;
     margin-left: 30px;
+    height: 400px;
+    width: 500px;
 }
 
 .bio {
@@ -48,6 +50,8 @@ body {
 .portfolio {
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 450px;
+    height: 350px;
 }
 
 .project {
@@ -72,5 +76,134 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px 0px 5px 30px;
 }
+
+.contact {
+    background-color: mintcream;
+    height: 490px;
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-top: 10px;
+    border: solid black 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.text-center {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px 0px 15px 0px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    border-top: solid springgreen 5px;
+}
+
+@media screen and (max-width: 540px) {
+    .portfolio {
+        width: 200px;
+        height: 100px;
+    }
+
+    .name {
+        width: 200px;
+        top: 100px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .profile {
+        height: 220px;
+        width: 300px;
+    }
+
+    .bio {
+        margin-top: 25px;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .about {
+        height: 570px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .portfolio {
+        width: 200px;
+        height: 100px;
+    }
+
+    .name {
+        width: 200px;
+        top: 100px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .profile {
+        width: 330px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio {
+        width: 300px;
+        height: 200px;
+    }
+
+    .name {
+        width: 300px;
+        top: 180px;
+        padding: 5px;
+        font-size: 22px;
+    }
+
+    .about {
+        height: 720px;
+    }
+
+    .profile {
+        margin-left: 80px;
+    }
+
+    .bio {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio {
+        width: 300px;
+        height: 200px;
+    }
+
+    .name {
+        width: 300px;
+        top: 180px;
+        padding: 5px;
+        font-size: 22px;
+    }
+
+    .about {
+        height: 700px;
+    }
+
+    .profile {
+        margin-left: 90px;
+    }
+
+    .bio {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+
+
 
 
