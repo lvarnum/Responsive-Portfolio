@@ -1,5 +1,10 @@
 body {
     background-color:powderblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    text-align: center;
 }
 
 .navbar-brand {
@@ -11,7 +16,6 @@ body {
     font-weight: bold;
     padding-top: 15px;
     background-color:springgreen;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navbar {
@@ -20,7 +24,6 @@ body {
 
 .nav-item {
     font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .about {
@@ -43,7 +46,6 @@ body {
     margin-top: 115px;
     margin-right: auto;
     margin-left: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     line-height: 2;
     border-top: dashed 2px springgreen;
@@ -54,8 +56,8 @@ body {
 .portfolio {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 450px;
-    height: 350px;
+    width: 100%;
+    height: 80%;
 }
 
 .project {
@@ -64,20 +66,20 @@ body {
 
 .name {
     position: absolute;
-    text-align: center;
-    top: 300px;
-    left: 15px;
+    top: 60%;
+    left: 2.5%;
     background-color: springgreen;
-    opacity: 75%;
-    width: 450px;
-    padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 24px;
+    opacity: 80%;
+    padding: 10px;
+    width: 95%;
+}
+
+.name a {
     color: black;
+    font-size: 24px;
 }
 
 .title {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px 0px 5px 30px;
 }
 
@@ -90,11 +92,9 @@ body {
 .form-control {
     margin-top: 10px;
     border: solid black 2px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 .text-center {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 15px 0px 15px 0px;
 }
 
@@ -102,6 +102,22 @@ body {
     margin-top: 50px;
     padding: 30px;
     border-top: solid springgreen 5px;
+}
+
+.materials {
+    border: dashed mintcream 3px;
+    padding: 15px;
+    margin: 20px;
+    width: 750px;
+    display: inline-block;
+}
+
+h5 a {
+    color: purple;
+}
+
+.professional {
+    margin-top: 25px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -122,6 +138,11 @@ body {
     .navbar-collapse {
         padding-left: 10px;
     }
+    
+    .name {
+        width: 94%;
+        left: 3%;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -138,15 +159,9 @@ body {
         margin-top: 20px;
     }
 
-    .portfolio {
-        width: 690px;
-        height: 500px;
-    }
-
     .name {
-        font-size: 35px;
-        width: 690px;
-        top: 410px;
+        width: 92%;
+        left: 4%;
     }
 }
 
@@ -165,34 +180,20 @@ body {
         margin-top: 20px;
     }
 
-    .portfolio {
-        width: 515px;
-        height: 400px;
+    .name {
+        width: 89%;
+        left: 5.5%;
     }
 
-    .name {
-        font-size: 30px;
-        width: 515px;
-        top: 320px;
+    .name a {
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 574px) {
-    .portfolio {
-        width: 325px;
-        height: 240px;
-    }
-
+@media screen and (max-width: 575px) {
     .navbar-brand {
         margin-bottom: 20px;
         font-size: 27px;
-    }
-    
-    .name {
-        width: 325px;
-        top: 225px;
-        padding: 5px;
-        font-size: 20px;
     }
 
     .profile {
@@ -215,28 +216,16 @@ body {
         padding-left: 20px;
     }
 
-}
-
-@media screen and (max-width: 320px) {
-    .profile {
-       width: 290px;
-       height: 205px;
-    }
-
-    .bio {
-        width: 290px;
-    }
-
-    .portfolio {
-        width: 290px;
-        height: 210px;
-    }
-
     .name {
-        width: 290px;
-        top: 190px;
+        width: 90%;
+        left: 5%;
+    }
+
+    .name a {
+        font-size: 15px;
     }
 }
+
 
 
 
